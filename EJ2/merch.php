@@ -11,18 +11,40 @@ include 'header.php';
     <style>
         .date{
             text-align: center;
-            background-color: gray;
-            border: 5px solid black;
-            padding: 100px;
+            border: black 10px solid;
+            border-radius: 15px;
+            background-color: #f3f3f3;
+            opacity: 80%;
+            width: 800px;
+            margin-left: 500px;
+            margin-top: 40px;
+            margin-bottom: 250px;
         }
         .comprar{
             width: 300px;
         }
+        body{
+            background-image: url("multimedia/inutero.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+        .comprar{
+            transition: transform 0.3s ease;
+        }
+        .comprar:hover {
+            transform: scale(1.1);
+        }
     </style>
 </head>
 <body>
-    <p>Compra la m</p>
+
     <div class="date">
+        <p>¡Lleva el espíritu de Nirvana contigo! Descubre nuestra<br>
+            colección oficial de merch y muestra tu amor por la banda<br>
+            que cambió el rock para siempre. Desde camisetas icónicas<br>
+            hasta accesorios únicos, cada pieza refleja la esencia grunge<br>
+            y la actitud rebelde de Kurt Cobain y compañía. No te quedes sin tu <br>
+            estilo Nirvana: hazlo tuyo hoy a fecha:</p>
         <p class="info"> Fecha: <?php echo $fecha; ?></p>
         <p class="info"> Hora: <span id="time"></span></p>
         <img class="comprar" src="multimedia/buy.png">

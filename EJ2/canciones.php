@@ -50,7 +50,11 @@ include 'header.php';
         .titulocome{
             margin-left: 210px;
         }
-
+        body{
+            background-image: url("multimedia/inutero.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
     </style>
 </head>
 <body>

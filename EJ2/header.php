@@ -41,6 +41,7 @@ require_once 'config.php';
         .opciones{
             margin-left: 20px;
         }
+
     </style>
 </head>
 <body>

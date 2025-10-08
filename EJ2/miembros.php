@@ -59,6 +59,11 @@ include 'header.php';
             width: 400px;
             margin-left: 150px;
         }
+        body{
+            background-image: url("multimedia/inutero.png");
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
     </style>
 </head>
 <body>
